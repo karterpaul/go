@@ -1,1 +1,1 @@
-this for go program to exec ute the environment
+this is for to understand go interms of concurrency and services
