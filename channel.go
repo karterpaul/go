@@ -15,7 +15,7 @@ func pinger(c chan string) {
 
 func ponger(c chan string) {
   for i := 0; ; i++ {
-   // fmt.Println(i)
+    fmt.Println(i)
     c <- "pong"
   }
 }
