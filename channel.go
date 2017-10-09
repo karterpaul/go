@@ -37,5 +37,5 @@ func main() {
   go printer(c)
 
   var input string
-  fmt.Scanln(&input)
+  //fmt.Scanln(&input)
 }
