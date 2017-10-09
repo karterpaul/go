@@ -7,7 +7,7 @@ import (
 
 func pinger(c chan string) {
   for i := 0; ; i++ {
-    //fmt.Println(i)
+    fmt.Println(i)
     c <- "ping"
   }
 }
